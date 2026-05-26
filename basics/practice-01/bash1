@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+echo $BASH_VERSION
+echo $OSTYPE
+echo $HOME
+read
+echo $REPLY     # вывод встроенной переменной с результатом ввода read
+echo "разделитель $IFS полей $IFS вводимой $IFS строки"
+echo $SECONDS

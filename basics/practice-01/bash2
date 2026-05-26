@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+dialog  --title "Мой первый диалог" --clear \
+        --msgbox "\nСвершилось!" 10 40 --clear \
+        --yesno "\nПривет! Перед вами пример программы, использующей dialog" 10 40
+case $? in
+    0) echo "Выбрано 'Да'" ;;
+    1) echo "Выбрано 'Нет'" ;;
+    255) echo "Нажата клавиша ESC" ;;
+esac
+#clear
