@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+echo "sub1.1: var = $var"
+var="NO Hello world!"
+echo "sub1.2: var = $var"

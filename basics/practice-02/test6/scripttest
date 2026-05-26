@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+var="Hello world!"
+export var
+./sub1
+./sub2

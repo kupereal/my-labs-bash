@@ -1,0 +1,16 @@
+#!/bin/bash
+x=12 y=5
+a=`expr $x \| $y`;      echo -n "$a "
+b=`expr $x \& $y`;      echo -n "$b "
+c=`expr $x \< $y`;      echo -n "$c "
+d=`expr $x \<= $y`;     echo -n "$d "
+e=`expr $x \> $y`;      echo -n "$e "
+f=`expr $x \>= $y`;     echo -n "$f "
+g=`expr $x = $y`;       echo -n "$g "
+h=`expr $x != $y`;      echo -n "$h "
+i=`expr $x + $y`;       echo -n "$i "
+j=`expr $x - $y`;       echo -n "$j "
+k=`expr $x \* $y`;      echo -n "$k "
+l=`expr $x / $y`;       echo -n "$l "
+m=`expr $x % $y`;       echo -n "$m "
+n=$(((3*3+3)/3));       echo -n "$n "

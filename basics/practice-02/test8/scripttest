@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+var="Hello world!"
+./sub1 "$var"
+./sub2 "$var"
